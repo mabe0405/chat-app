@@ -64,16 +64,100 @@ header{
 	height:100px;
 	background-color: #ffffff;
 	padding:0 40px;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
 }
+
+.header-logo{
+font-size:24px;
+padding: 0 36px 0 0;
+}
+
+.header-logo a{
+color:#333;
+text-decoration: none;
+}
+
+.header-exit{
+ padding:20px;
+ border:1px solid darkred;
+}
+
+.header-exit a{
+	color:darkred;
+	text-decoration: none;
+	}
 
 .midlle-main-chat{
 	height:calc(100% - 190px);
 	background-color:#FAFAFA;
 	padding:46px 40px 0 40px;
+	overflow: scroll;
+}
+
+.chat-name{
+	font-size:16px;
+	color:#434A54;
+	padding:10px 10px 0 0;
+}
+
+.chat-date{
+	font-size:12px;
+	color:#999;
+}
+.chat-message{
+	font-size:14px;
+	color:#434A54;
+	padding:10px 0;
 }
 
 footer{
 	height:90px;
 	background-color: #DDDDDD;
 	padding:20px 40px;
+}
+
+.form{
+	height:50px;
+	width:100%;
+	display:flex;
+}
+
+.message{
+	background-color:white;
+	width:100%;
+	display:flex;
+}
+
+.message-form{
+	padding-left:10px;
+	background-color: white;
+	border:none;
+	height:100%;
+	width:100%;
+}
+
+.form-image{
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+	padding: 12px;
+  width: 60px;
+	margin: 5px 10px;
+	text-align:center;
+}
+
+.hidden{
+	display:none;
+}
+
+.btn{
+font-size: 16px;
+color:white;
+background-color: #38AEF0;
+padding:0 20px;
+border:none;
+margin-left:15px;
+height:100%;
 }
