@@ -1,0 +1,163 @@
+.wrapper{
+	height:100vh;
+	width:100vw;
+	display:flex;
+}
+
+.side-bar{
+	width:300px;
+}
+
+.top-side-bar{
+	height:100px;
+	background-color:#253141;
+	padding:0 20px;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.left-top-side-bar{
+ font-size:16px;
+ }
+
+.left-top-side-bar a{
+	color:#FAFAFA;
+	text-decoration: none;
+}
+
+.right-top-side-bar{
+font-size:10px;
+
+padding:14px;
+border:1px solid lightblue;
+}
+
+.right-top-side-bar a{
+	color:deepskyblue;
+	text-decoration: none;
+}
+
+.main-side-bar{
+	height:calc(100% - 100px);
+	background-color:#2F3E51;
+	padding:0 20px;
+  overflow: scroll;
+}
+
+.room-name{
+	padding:20px 0 40px 0
+}
+
+.room-name a{
+	color:white;
+	text-decoration:none;
+}
+
+.main-chat{
+	height:100%;
+	width:calc(100% - 300px);
+}
+
+header{
+	height:100px;
+	background-color: #ffffff;
+	padding:0 40px;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+
+.header-logo{
+font-size:24px;
+padding: 0 36px 0 0;
+}
+
+.header-logo a{
+color:#333;
+text-decoration: none;
+}
+
+.header-exit{
+ padding:20px;
+ border:1px solid darkred;
+}
+
+.header-exit a{
+	color:darkred;
+	text-decoration: none;
+	}
+
+.midlle-main-chat{
+	height:calc(100% - 190px);
+	background-color:#FAFAFA;
+	padding:46px 40px 0 40px;
+	overflow: scroll;
+}
+
+.chat-name{
+	font-size:16px;
+	color:#434A54;
+	padding:10px 10px 0 0;
+}
+
+.chat-date{
+	font-size:12px;
+	color:#999;
+}
+.chat-message{
+	font-size:14px;
+	color:#434A54;
+	padding:10px 0;
+}
+
+footer{
+	height:90px;
+	background-color: #DDDDDD;
+	padding:20px 40px;
+}
+
+.form{
+	height:50px;
+	width:100%;
+	display:flex;
+}
+
+.message{
+	background-color:white;
+	width:100%;
+	display:flex;
+}
+
+.message-form{
+	padding-left:10px;
+	background-color: white;
+	border:none;
+	height:100%;
+	width:100%;
+}
+
+.form-image{
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+	padding: 12px;
+  width: 60px;
+	margin: 5px 10px;
+	text-align:center;
+}
+
+.hidden{
+	display:none;
+}
+
+.btn{
+font-size: 16px;
+color:white;
+background-color: #38AEF0;
+padding:0 20px;
+border:none;
+margin-left:15px;
+height:100%;
+}
