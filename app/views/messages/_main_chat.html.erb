@@ -6,68 +6,8 @@
   <a href="#">チャットを終了する</a>
 </header>
 <div class="midlle-main-chat">
- <div class="chat">
-	 <span class="chat-name">Tom</span>
-	 <span class="chat-date">2020/3/31(Wed)12:34:30</span>
-	 <div class="chat-message">おはよう</div>
- </div>
- <div class="chat">
-	 <span class="chat-name">Tom</span>
-	 <span class="chat-date">2020/3/31(Wed)12:34:30</span>
-	 <div class="chat-message">こんばんわ</div>
- </div>
- <div class="chat">
-	 <span class="chat-name">Tom</span>
-	 <span class="chat-date">2020/3/31(Wed)12:34:30</span>
-	 <div class="chat-message">こんばんわ</div>
- </div>
- <div class="chat">
-	 <span class="chat-name">Tom</span>
-	 <span class="chat-date">2020/3/31(Wed)12:34:30</span>
-	 <div class="chat-message">こんばんわ</div>
- </div>
- <div class="chat">
-	 <span class="chat-name">Tom</span>
-	 <span class="chat-date">2020/3/31(Wed)12:34:30</span>
-	 <div class="chat-message">こんばんわ</div>
- </div>
- <div class="chat">
-	 <span class="chat-name">Tom</span>
-	 <span class="chat-date">2020/3/31(Wed)12:34:30</span>
-	 <div class="chat-message">こんばんわ</div>
- </div>
- <div class="chat">
-	 <span class="chat-name">Tom</span>
-	 <span class="chat-date">2020/3/31(Wed)12:34:30</span>
-	 <div class="chat-message">こんばんわ</div>
- </div>
- <div class="chat">
-	 <span class="chat-name">Tom</span>
-	 <span class="chat-date">2020/3/31(Wed)12:34:30</span>
-	 <div class="chat-message">こんばんわ</div>
- </div>
- <div class="chat">
-	 <span class="chat-name">Tom</span>
-	 <span class="chat-date">2020/3/31(Wed)12:34:30</span>
-	 <div class="chat-message">こんばんわ</div>
- </div>
- <div class="chat">
-	 <span class="chat-name">Tom</span>
-	 <span class="chat-date">2020/3/31(Wed)12:34:30</span>
-	 <div class="chat-message">こんばんわ</div>
- </div>
- <div class="chat">
-	 <span class="chat-name">Tom</span>
-	 <span class="chat-date">2020/3/31(Wed)12:34:30</span>
-	 <div class="chat-message">こんばんわ</div>
- </div>
- <div class="chat">
-	 <span class="chat-name">Tom</span>
-	 <span class="chat-date">2020/3/31(Wed)12:34:30</span>
-	 <div class="chat-message">こんばんわ</div>
- </div>
+<%= render partial: "message" ,collection: @messages %>
 </div>
-
 <footer>
 <%= form_with model:[@room,@message],local: true do |f|%>
 <div class="form">
