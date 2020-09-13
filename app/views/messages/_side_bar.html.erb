@@ -10,8 +10,7 @@
 <div class="main-side-bar">
   <% current_user.rooms.each do |room|%>
 	<div class="room-name">
-	 <a href="#" ><%=room.name%></a>
+	 <%=link_to room.name , room_messages_path(room.id) %>
   </div>
   <%end%>
-	<h1>＜サイドバー＞</h1>
 </div>
