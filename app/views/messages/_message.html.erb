@@ -3,6 +3,8 @@
 	 <span class="chat-date"><%=l message.created_at%></span>
 	 <div class="chat-message"><%=message.content%></div>
 	 <div>
-	 <%= image_tag message.image.variant(resize:"500✕500"), class:"message-image" if message.image.attached? %>
+	 <%= image_tag message.image.variant(resize:'500x500') ,class:"message-image" if message.image.attached? %>
 	 </div>
  </div>
+
+<%# variant(resize:'500✕500') %>
